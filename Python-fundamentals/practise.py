@@ -1,22 +1,10 @@
-def sayHello(name):
-    name = f"Hello {name}"
-    return name
+def getSum(A, B): return A + B
 
 
-def count(A, B):
-    total = A+B
-    ext = B-A
-    name = sayHello("selen")
-    return total, name, ext
+print(getSum(2, 4))
 
 
-numSum = count(4, 6)
-print(numSum)
+def addOne(A): return A + 1
 
 
-def addOneToNum(num):
-    num += 1
-    return num
-
-
-print(addOneToNum(7))
+print(addOne(9))
