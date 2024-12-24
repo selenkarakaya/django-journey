@@ -1,4 +1,8 @@
-count = 0
-while count <= 10:
-    print(count)
-    count += 1
+import validator
+from validator import validate_email
+
+email = "selen@gmail.com"
+if validate_email(email):
+    print("valid")
+else:
+    print("invalid")
