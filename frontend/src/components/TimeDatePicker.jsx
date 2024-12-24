@@ -28,13 +28,3 @@ function TimeDatePicker({ date, setDate }) {
 }
 
 export default TimeDatePicker;
-
-// <div>
-//       <TimePicker
-// minTime="1:00am"
-//           maxTime="4:30pm"
-//         onChange={this.handleTimeChange}
-//         timeValue={this.state.timeValue}
-//         name="timeField"
-//       />
-//     </div>

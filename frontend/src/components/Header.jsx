@@ -1,7 +1,6 @@
 import { FaSignOutAlt } from "react-icons/fa";
 import { RiUserHeartLine } from "react-icons/ri";
 import { Link, useNavigate } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import Logo from "./image/logo.png";
 
@@ -20,7 +19,6 @@ function Header() {
           </Link>
         </div>
         <div className="space-x-2 flex">
-          {" "}
           <Link
             to="/"
             className="hover:bg-mediumBlue md:p-7 hover:scale-105 invisible md:visible"
