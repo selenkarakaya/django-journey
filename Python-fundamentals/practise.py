@@ -1,10 +1,7 @@
-def getSum(A, B): return A + B
+x = 10
+y = 11
 
-
-print(getSum(2, 4))
-
-
-def addOne(A): return A + 1
-
-
-print(addOne(9))
+if x != y:
+    print(x)
+else:
+    print(y)
