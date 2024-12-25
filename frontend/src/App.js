@@ -29,13 +29,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
-
             <Route path="/Profile" element={<Profile />} />
-
             <Route path="/new-ticket" element={<NewTicket />} />
-
             <Route path="/tickets" element={<Tickets />} />
-
             <Route path="/ticket/:ticketId" element={<SingleTicketItem />} />
           </Routes>
           <Footer />
