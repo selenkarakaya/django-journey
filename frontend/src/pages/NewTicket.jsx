@@ -21,7 +21,7 @@ function NewTicket() {
         </div>
         <form>
           <div className="form-group">
-            <label htmlFor="product">Service</label>
+            <label htmlFor="product">Services</label>
             <select name="product" id="product">
               <option value="Select service">Select service</option>
               <option value="Gel nail extensions full set">
@@ -49,7 +49,7 @@ function NewTicket() {
             </select>
           </div>
           <div className="form-group">
-            <label htmlFor="description">Description of the issue</label>
+            <label htmlFor="description">Message</label>
             <textarea
               name="description"
               id="description"
