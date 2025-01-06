@@ -4,7 +4,8 @@
   "description": "The goal of this course is to learn the fundamentals of Python and Django while building a real-world application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development ./backend/frontend/src/index.js --output ./backend/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./backend/frontend/src/index.js --output ./backend/frontend/static/frontend/main.js"
   },
   "keywords": [],
   "author": "",
